@@ -1,0 +1,58 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#alertMessage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+#alertMessage.error {
+    background: rgba(245, 100, 100, 0.7);
+}
+
+#alertMessage.liked {
+    background: rgba(49, 214, 198, 0.7);
+}
+
+.listPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list li {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 5px;
+}
+
+#list li p{
+    margin: 0;
+}
+
+#list li button:first-child {
+    margin-right: 5px;
+}
+
+li.liked{
+    background: rgba(247, 150, 242, 0.6);
+    padding: 3px;
+}

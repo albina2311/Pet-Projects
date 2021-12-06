@@ -1,0 +1,133 @@
+/* START: Task 1 Styles */
+#task1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+td.green {
+    background-color: green;
+}
+
+td.blue {
+    background-color: blue;
+}
+
+td.yellow {
+    background-color: yellow;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.form_container input[type="text"]{
+    height: 30px;
+    width: 255px;
+    margin-right: 10px;
+    font-size: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.form_container input[type="button"]{
+    height: 36px;
+}
+
+.form_message {
+    box-sizing: border-box;
+    width: 330px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.form_message.success {
+    background-color: rgb(5, 151, 5);
+}
+
+.form_message.error {
+    background-color: rgb(245, 92, 92);
+}
+
+input[type="text"].error {
+    border: 1px solid red;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#task3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#court {
+    background-image: url(assets/court.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 330px;
+    position: relative;
+    width: 600px;
+    z-index: 0;
+}
+
+#ball {
+    background-image: url(assets/ball.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    left: calc(50% - 20px);
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 40px;
+    z-index: 1;
+    transition: all 1s ease-out 0.5s;
+}
+
+.scoring_zone {
+    height: 15px;
+    width: 15px;
+}
+
+#scoring_zoneA {
+    left: 32px;
+    position: absolute;
+    top: calc(50% - 11px);
+}
+
+#scoring_zoneB {
+    left: calc(600px - 48px);
+    position: absolute;
+    top: calc(50% - 11px);
+}
+
+.scoreboard {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.messageA {
+    color: blue;
+    font-size: 24px;
+}
+
+.messageB {
+    color: red;
+    font-size: 24px;
+}
+/* END: Task 3 Styles */

@@ -1,0 +1,115 @@
+/*Your code goes here*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.font-family {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-bg-img {
+    background-image: url('../assets/hero-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50% 20%;
+}
+
+.bg-colorCoral {
+    background-color: coral;
+}
+
+.bg-color-darkGrey {
+    background-color: #525252;
+}
+
+.font-colorWhite {
+    color: white;
+}
+
+
+
+.width500 {
+    width: 500px;
+}
+
+.width300 {
+    width: 300px;
+}
+
+.height75vh {
+    height: 50vh;
+}
+
+.height40px {
+    height: 40px;
+}
+
+
+
+.text-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.border {
+    border: 0;
+}
+
+.borderCoral {
+    border: 1px solid lightcoral;
+}
+
+.border-radius0 {
+    border-radius: 0;
+}
+
+.border-radius5px {
+    border-radius: 5px;
+}
+
+
+
+.padding-bottom150px {
+    padding-bottom: 150px;
+}
+
+.padding-top150px {
+    padding-top: 150px;
+}
+
+.padding-top-bottom50px {
+    padding: 50px 0;
+}
+
+.padding-left10px {
+    padding-left: 10px;
+}
+
+.margin0 {
+    margin: 0;
+}
+
+.margin-bottom100px {
+    margin-bottom: 100px;
+}
+
+.margin-bottom10px {
+    margin-bottom: 10px;
+}
+
+.margin-bottom20px {
+    margin-bottom: 20px;
+}
+
+.margin-bottom40px {
+    margin-bottom: 40px;
+}
+
+
+
+.font-size16px {
+    font-size: 16px;
+}
+
+.font-weight500 {
+    font-weight: 500;
+}

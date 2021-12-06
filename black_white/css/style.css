@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url('../img/apples.jpg');
+    background-position: 50% 0;
+    padding: 40px 0 100px;
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.header-wrapper>nav>ul, footer nav>ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.header-wrapper>nav>ul>li, footer nav>ul>li {
+    margin-left: 40px;
+}
+
+.header-wrapper>nav>ul>li>a, footer nav>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    margin-top: 220px;
+    text-align: center;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+.banner>h1>span {
+    font-size: 1.8em;
+}
+
+.banner>p{
+    text-transform: capitalize;
+}
+
+.banner>button {
+    margin-top: 180px;
+    text-transform: capitalize;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 15px 70px;
+}
+
+main span {
+    font-weight: 600;
+}
+
+main h2 {
+    font-weight: 500;
+}
+
+.about {
+    padding: 100px 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about>h2 {
+    width: 500px;   
+}
+
+.about>p {
+    width: 650px;
+}
+
+.articles {
+    text-align: center;
+}
+
+.articles h2 {
+    margin-bottom: 100px;
+}
+
+.article_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.article_card>p{
+    width: 500px;
+}
+
+.article_img {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    color: #fff;
+}
+
+.article_img.phone {
+    background-image: radial-gradient(rgba(0, 0, 0, 0), #343638), url(../img/sample1.jpg);
+}
+
+.article_img.plant {
+    background-image: radial-gradient(rgba(0, 0, 0, 0), #343638), url(../img/sample.jpg);
+}
+
+.article_img p{
+    position: absolute;
+    top: 90%;
+    left: 10px;
+}
+
+.article_like {
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #343638;
+    padding: 8px 10px;
+}
+
+.subscribe {
+    padding: 80px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form>input {
+    width: 750px;
+    height: 60px;
+    border: 2px solid #9E9E9E;
+    padding-left: 20px;
+}
+
+.form>button {
+    height: 60px;
+    border: 0;
+    background-color: #343638;
+    color: #fff;
+    padding: 10px 20px;
+    margin: -5px;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.info h3 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: #9E9E9E;
+    font-size: 14px;
+}
+
+.footer_about, .last_tweet, .newsletter {
+    width: 300px;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-form>input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #9E9E9E;
+    color: #000;
+    padding-left: 10px;
+}
+
+.footer-form>button {
+    height: 40px;
+    border: 0;
+    background-color: #343638;
+    color: #fff;
+    padding: 10px;
+    margin: -5px;
+    font-size: 14px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+footer nav>ul>li>a {
+    color: #000;
+    font-size: 14px;
+}
+
+footer nav>p {
+    color: #9E9E9E;
+}

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AJAX</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .users_container {
+      max-width: 1200px;
+      padding: 20px 0;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .user_card {
+      position: relative;
+      background: radial-gradient(circle at center, #3498db, #9b59b6);
+      width: 32%;
+      min-height: 500px;
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .user_card_info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    table {
+      width: 80%;
+    }
+
+    td {
+      text-align: left;
+      padding-bottom: 10px;
+    }
+
+    .buttons {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    button {
+      border: 0;
+      background-color: hsl(335, 92%, 41%);
+      color: #fff;
+      width: 120px;
+      height: 40px;
+      border-radius: 15px;
+      font-size: 18px;
+    }
+
+    #spinner {
+      visibility: hidden;
+      width: 80px;
+      height: 80px;
+
+      border: 2px solid #f3f3f3;
+      border-top: 3px solid #f25a41;
+      border-radius: 100%;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+
+      animation: spin 1s infinite linear;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    #spinner.show {
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="users_container">
+
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
